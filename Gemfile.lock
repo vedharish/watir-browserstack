@@ -1,0 +1,37 @@
+GEM
+  remote: http://rubygems.org/
+  specs:
+    browserstack-local (1.2.0)
+    childprocess (0.5.9)
+      ffi (~> 1.0, >= 1.0.11)
+    commonwatir (4.0.0)
+    ffi (1.9.14)
+    mime-types (2.99.3)
+    parallel (1.9.0)
+    parallel_tests (2.10.0)
+      parallel
+    rake (11.3.0)
+    rubyzip (1.2.0)
+    selenium-webdriver (3.0.0)
+      childprocess (~> 0.5)
+      rubyzip (~> 1.0)
+      websocket (~> 1.0)
+    watir (5.0.0)
+      commonwatir (~> 4)
+      watir-webdriver
+    watir-webdriver (0.9.3)
+      selenium-webdriver (>= 2.46.2)
+    websocket (1.2.3)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  browserstack-local
+  mime-types (~> 2.0)
+  parallel_tests
+  rake
+  watir
+
+BUNDLED WITH
+   1.12.5
